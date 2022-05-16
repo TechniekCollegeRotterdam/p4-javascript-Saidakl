@@ -7,10 +7,24 @@
     <title>Document</title>
 </head>
 <body>
-    <label>
-        name:
-        <input type="text" onchange="nameChanged(event)">
-    </label>
+    <div class = "Labels">
+    <label> 
+        name: 
+        <input type="text" onchange="nameChanged(event)"> 
+      </label> 
+     
+      <label> 
+        Country: 
+        <select onchange="countryChange(event)"> 
+          <option value="nederland">Nederland</option> 
+          <option value="belgie">Belgie</option> 
+          <option value="duitsland">Duitsland</option> 
+        </select> 
+      </label> 
+     
+      <p id="output"></p> 
+
+    </div>
 
     <script src="app.js"></script>
 </body>
