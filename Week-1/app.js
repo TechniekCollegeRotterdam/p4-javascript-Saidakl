@@ -17,7 +17,7 @@ const changeInput = function() {
 }
 
 let nameChanged = document.querySelector("#nameChanged");
-let countryChange = document.querySelector("#nameChanged");
+let countryChange = document.querySelector("#countryChange");
 
 nameChanged.addEventListener("change", function(){
         name = event.target.value;
